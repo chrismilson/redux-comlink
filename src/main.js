@@ -24,6 +24,9 @@ export async function remoteStoreWrapper (remoteStore) {
     subscribe (listener) {
       subscribers.add(listener)
       return () => subscribers.delete(listener)
+    },
+    replaceReducer: () => {
+      throw new Error('Can\'t transfer a function')
     }
   }
 }
