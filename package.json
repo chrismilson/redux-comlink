@@ -1,0 +1,31 @@
+{
+  "name": "redux-comlink",
+  "version": "0.0.0",
+  "description": "Some helpers for using comlink with redux",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrismilson/redux-comlink.git"
+  },
+  "keywords": [
+    "redux",
+    "comlink",
+    "off-main-thread",
+    "web-worker"
+  ],
+  "author": "Chris Milson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrismilson/redux-comlink/issues"
+  },
+  "homepage": "https://github.com/chrismilson/redux-comlink#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
