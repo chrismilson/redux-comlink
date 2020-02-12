@@ -27,5 +27,8 @@
     "babel-loader": "^8.0.6",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
+  },
+  "peerDependencies": {
+    "comlink": "^4.2.0"
   }
 }
