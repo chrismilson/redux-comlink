@@ -4,7 +4,7 @@
   "description": "Some helpers for using comlink with redux",
   "main": "lib/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
