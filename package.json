@@ -1,6 +1,6 @@
 {
   "name": "redux-comlink",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Some helpers for using comlink with redux",
   "main": "lib/main.js",
   "scripts": {
